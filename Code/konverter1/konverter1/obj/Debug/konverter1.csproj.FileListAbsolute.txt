@@ -1,0 +1,10 @@
+C:\Users\Ксюша\source\repos\konverter1\konverter1\bin\Debug\konverter1.exe.config
+C:\Users\Ксюша\source\repos\konverter1\konverter1\bin\Debug\konverter1.exe
+C:\Users\Ксюша\source\repos\konverter1\konverter1\bin\Debug\konverter1.pdb
+C:\Users\Ксюша\source\repos\konverter1\konverter1\obj\Debug\konverter1.csprojResolveAssemblyReference.cache
+C:\Users\Ксюша\source\repos\konverter1\konverter1\obj\Debug\konverter1.Form1.resources
+C:\Users\Ксюша\source\repos\konverter1\konverter1\obj\Debug\konverter1.Properties.Resources.resources
+C:\Users\Ксюша\source\repos\konverter1\konverter1\obj\Debug\konverter1.csproj.GenerateResource.Cache
+C:\Users\Ксюша\source\repos\konverter1\konverter1\obj\Debug\konverter1.csproj.CoreCompileInputs.cache
+C:\Users\Ксюша\source\repos\konverter1\konverter1\obj\Debug\konverter1.exe
+C:\Users\Ксюша\source\repos\konverter1\konverter1\obj\Debug\konverter1.pdb
