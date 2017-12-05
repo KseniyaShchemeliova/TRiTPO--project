@@ -76,12 +76,14 @@ namespace konverter1
             var converter = new Converter();
             var r = converter.Convert(sum, Currencies[fromCurrency.SelectedItem.ToString()],
                 Currencies[toCurrency.SelectedItem.ToString()]);
-            toAmount.Text = r.ToString(CultureInfo.InvariantCulture);
+            double h;
+            h = Math.Round(r, 2);
+            toAmount.Text = h.ToString(CultureInfo.InvariantCulture);
         }
 
         private void FromAmont_KeyUp(object sender, KeyEventArgs e)
         {
-            fromAmount.Text = Regex.Match(fromAmount.Text, @"([0-9]+([.][0-9]*)?|[.][0-9]+)").Value;
+            fromAmount.Text = Regex.Match(fromAmount.Text, @"([0-9]+([,][0-9]*)?|[,][0-9]+)").Value;
             fromAmount.SelectionStart = fromAmount.Text.Length;
             convertButton.Enabled = fromAmount.Text.Length != 0;
         }
