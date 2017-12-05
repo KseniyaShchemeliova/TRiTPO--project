@@ -1,11 +1,7 @@
 ﻿namespace konverter1
 {
-    public interface IConverting
-    {
-        double Convert(double amount, double fromRate, double toRate);
-    }
-
-    internal class Converter : IConverting
+    
+    internal class Converter 
     {
         public double Convert(double amount, double fromRate, double toRate)
         {
